@@ -25,7 +25,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 DBD::SQLite2 is a DBI driver for SQLite database. SQLite is a public
 domain RDBMS database engine that you can find at
-http://www.sqlite.org/ .
+<http://www.sqlite.org/>.
 
 Rather than ask you to install SQLite first, DBD::SQLite2 includes the
 entire thing in the distribution. So in order to get a fast
@@ -38,7 +38,7 @@ a newest one please use perl-DBD-SQLite.
 %description -l pl
 DBD::SQLite2 to sterownik DBI do baz danych SQLite. SQLite to silnik
 relacyjnych baz danych na licencji public domain. Mo¿na go znale¼æ pod
-adresem http://www.sqlite.org/ .
+adresem <http://www.sqlite.org/>.
 
 DBD::SQLite2 zawiera w sobie ca³y silnik bazy danych. Dziêki temu aby
 otrzymaæ dzia³aj±cy RDBMS dostêpny z poziomu Perla nie trzeba
