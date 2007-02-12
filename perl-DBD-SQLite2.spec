@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	SQLite2
 Summary:	DBD::SQLite2 - Self Contained RDBMS in a DBI Driver (sqlite 2.x)
-Summary(pl):	DBD::SQlite2 - Kompletny RDBMS zawarty w sterowniku DBI (sqlite 2.x)
+Summary(pl.UTF-8):   DBD::SQlite2 - Kompletny RDBMS zawarty w sterowniku DBI (sqlite 2.x)
 Name:		perl-DBD-SQLite2
 Version:	0.33
 Release:	1
@@ -36,17 +36,17 @@ have to install this module, and nothing else.
 This version uses older version of SQLite engine (2.x). To get a
 newest one please use perl-DBD-SQLite.
 
-%description -l pl
+%description -l pl.UTF-8
 DBD::SQLite2 to sterownik DBI do baz danych SQLite. SQLite to silnik
-relacyjnych baz danych na licencji public domain. Mo¿na go znale¼æ pod
+relacyjnych baz danych na licencji public domain. MoÅ¼na go znaleÅºÄ‡ pod
 adresem <http://www.sqlite.org/>.
 
-DBD::SQLite2 zawiera w sobie ca³y silnik bazy danych. Dziêki temu aby
-otrzymaæ dzia³aj±cy RDBMS dostêpny z poziomu Perla nie trzeba
-instalowaæ ¿adnych innych pakietów.
+DBD::SQLite2 zawiera w sobie caÅ‚y silnik bazy danych. DziÄ™ki temu aby
+otrzymaÄ‡ dziaÅ‚ajÄ…cy RDBMS dostÄ™pny z poziomu Perla nie trzeba
+instalowaÄ‡ Å¼adnych innych pakietÃ³w.
 
-Ta wersja korzysta ze starszej wersji silnika SQLite (2.x). Aby u¿yæ
-nowszej wersji nale¿y zainstalowaæ pakiet perl-DBD-SQLite.
+Ta wersja korzysta ze starszej wersji silnika SQLite (2.x). Aby uÅ¼yÄ‡
+nowszej wersji naleÅ¼y zainstalowaÄ‡ pakiet perl-DBD-SQLite.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
