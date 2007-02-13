@@ -6,7 +6,7 @@
 %define		pdir	DBD
 %define		pnam	SQLite2
 Summary:	DBD::SQLite2 - Self Contained RDBMS in a DBI Driver (sqlite 2.x)
-Summary(pl.UTF-8):   DBD::SQlite2 - Kompletny RDBMS zawarty w sterowniku DBI (sqlite 2.x)
+Summary(pl.UTF-8):	DBD::SQlite2 - Kompletny RDBMS zawarty w sterowniku DBI (sqlite 2.x)
 Name:		perl-DBD-SQLite2
 Version:	0.33
 Release:	1
