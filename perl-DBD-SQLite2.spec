@@ -51,14 +51,16 @@ nowszej wersji należy zainstalować pakiet perl-DBD-SQLite.
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
+# not real test
+mv t/ak-dbd.t{,est}
+
 %build
-echo y | %{__perl} Makefile.PL \
+%{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-# If SQLITE_PTR_SZ is not set in OPTIMIZE SQLite assumes 64-bit
-# architecture and fails.
+
 %{__make} \
 	CC="%{__cc}" \
-	OPTIMIZE="%{rpmcflags} -DSQLITE_PTR_SZ=`%{__perl} -MConfig -e 'print \"$Config{ptrsize}\";'`"
+	OPTIMIZE="%{rpmcflags}"
 
 %{?with_tests:%{__make} test}
 
