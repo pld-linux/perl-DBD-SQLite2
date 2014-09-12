@@ -80,6 +80,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/DBD/SQLite2.pm
 %dir %{perl_vendorarch}/auto/DBD/SQLite2
-%{perl_vendorarch}/auto/DBD/SQLite2/SQLite2.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/DBD/SQLite2/SQLite2.so
 %{_mandir}/man3/DBD*
