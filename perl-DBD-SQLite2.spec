@@ -8,13 +8,13 @@
 Summary:	DBD::SQLite2 - Self Contained RDBMS in a DBI Driver (sqlite 2.x)
 Summary(pl.UTF-8):	DBD::SQlite2 - Kompletny RDBMS zawarty w sterowniku DBI (sqlite 2.x)
 Name:		perl-DBD-SQLite2
-Version:	0.33
-Release:	15
+Version:	0.37
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	babd83fd5eb9ba7560ad4bab4c76c0eb
+# Source0-md5:	f05f60d8a54f0024abb3b3e39861ee3d
 URL:		http://search.cpan.org/dist/DBD-SQLite2/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
