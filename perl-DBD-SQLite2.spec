@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	DBD
 %define		pnam	SQLite2
 Summary:	DBD::SQLite2 - Self Contained RDBMS in a DBI Driver (sqlite 2.x)
